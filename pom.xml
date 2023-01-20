@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.7.86:9000/</sonar.host.url>
-                <sonar.login>squ_45a3441effc95c674ca6236dd7e1d112dbb7026c</sonar.login>
+		<sonar.host.url>http://172.31.2.249:9000/</sonar.host.url>
+                <sonar.login>8ca4bb1584b6e9297210ac4682d8a8e2a69661e5</sonar.login>
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.0.101:9980/mithuntechnologies/repository/citibank-releases/</url>
+	      <url>http://172.31.1.133:8088/santhoshnexus/repository/walmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.0.101:9980/mithuntechnologies/repository/citibank-snapshot/</url>
+	      <url>http://172.31.1.133:8088/santhoshnexus/repository/walmart-snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
